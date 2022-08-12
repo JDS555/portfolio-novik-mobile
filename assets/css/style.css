@@ -1,17 +1,37 @@
+
+
+@font-face {
+   font-family: "Gilroy-Bold";
+   font-style: normal;
+   font-weight: 600;
+
+   src: local("Gilroy"),
+        url("assets/fonts/gilroy-bold.woff2") format("woff2"),
+        url("assets/fonts/gilroy-bold.woff") format("woff");
+
+   font-family: "Gilroy-Medium";
+   font-style: normal;
+   font-weight: 400;
+
+   src: local("Gilroy"),
+        url("assets/fonts/gilroy-medium.woff2") format("woff2"),
+        url("assets/fonts/gilroy-medium.woff") format("woff");
+ }
+
 /*! variables */
 
 :root {
-   --main-text-color: #FFFFFF; /* *WHITE */
-   --second-text-color: #EBE7E5;  /* *LIGHT-GRAY */
-   --third-text-color: #4FFFCA;  /* *GREEN */
+   --main-text-color: #000000;
+   --second-text-color: #828282;
+   --third-text-color: #ffffff;
  
-    --main-bg-color: #0D1214;    /* *BLACK  */
- 
+    --main-bg-color: #E5E5E5;
+    --second-bg-color: #ffffff;
  }
- 
+
  /*! global styles */
  
- /* ?Selective nulling */
+ /* Selective nulling */
  
  /* Removing the underscore and blue color of all links */
  a {
@@ -50,8 +70,6 @@
  a:not([class]) {
     text-decoration-skip-ink: auto;
  }
- 
- /* ?! */
  
  /* Remove internal indentation */
  ul[class],
@@ -94,14 +112,12 @@
  }
  
  html {
-    font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-   line-height: 21px;
-   letter-spacing: 0em;
-    color: var(--main-text-color);
-    background-color: var(--main-bg-color);
-    scroll-behavior: smooth;
+   font-family: "Gilroy-Bold", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 22px;
+   color: var(--main-text-color);
+   background-color: var(--main-bg-color);
+   scroll-behavior: smooth;
  }
- 
