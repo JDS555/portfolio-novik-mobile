@@ -147,7 +147,7 @@ body {
 
 ul.navigation-list {
    display: flex;
-   width: 100%;
+   width: 65%;
    flex-direction: row;
    border-bottom: 2px solid #828282;
    max-width: 940px;
@@ -203,7 +203,6 @@ ul.navigation-list {
 }
 
 .contacts-text {
-   font-family: "Gilroy-Medium";
    font-style: normal;
    font-weight: 400;
    font-size: 18px;
@@ -219,7 +218,6 @@ ul.navigation-list {
    border: none;
    background-color: var(--main-text-color);
    border-radius: 50px;
-   font-family: 'Gilroy-Bold';
    font-size: 18px;
    line-height: 22px;
    text-align: center;
@@ -285,7 +283,6 @@ ul.navigation-list {
 
 .social-text {
    display: flex;
-   font-family: 'Gilroy-Medium';
    font-size: 14px;
    line-height: 17px;
    text-align: center;
@@ -293,3 +290,128 @@ ul.navigation-list {
    margin-top: 45px;
    margin-bottom: 123px;
 }
+
+/* %MAIN */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+main {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--second-bg-color);
+   width: 100%;
+   text-align: center;
+   cursor: default;
+}
+
+/* !about */
+
+.about {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 198px;
+}
+
+.wrapper-about-headed {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 33px;
+   margin-bottom: 37px;
+}
+
+.container-centerer-section {
+   max-width: 940px;
+   width: 65%;
+   margin: 0 auto;
+}
+
+.about-header {
+   margin: 0;
+   font-family:"Gilroy";
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 59px;
+}
+
+.about-position {
+   font-weight: 400;
+   align-self: flex-end;
+   margin-bottom: 15px;
+   margin-right: 44px;
+   text-align: start;
+   transition: 870ms;
+}
+
+.wrapper-language-selector {
+   margin: 0;
+}
+
+.selector-ru ,
+.selector-separator ,
+.selector-eng {
+   display: flex;
+   flex-direction: column;
+   font-size: 16px;
+   line-height: 20px;
+   margin-right: -10px;
+   transform: rotate(-90deg);
+}
+
+.selector-eng {
+   margin-top: 40px;
+}
+
+.selector-separator {
+   margin-top: 7px;
+}
+
+.selector-ru {
+   color: var(--second-text-color);
+   cursor: not-allowed;
+}
+
+.selector-eng:hover ,
+.selector-eng:focus {
+   transition: 870ms;
+   color: var(--second-text-color);
+}
+
+.wrapper-portrait {
+   display: flex;
+   margin-bottom: 220px;
+}
+
+.wrapper-about-me {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.about-me-header {
+   font-size: 34px;
+   line-height: 42px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.about-me-text {
+   max-width: 485px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   text-align: center;
+}
+
+.about-me-text-center{
+   margin-top: 45px;
+   margin-bottom: 45px;
+}
+
+/* !skills */
+
+/* !animation language selector */
+
+
+/* %MOBILE */
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
