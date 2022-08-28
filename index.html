@@ -57,7 +57,12 @@
                </div>
             </div>
             <div class="wrapper-portrait">
-               <img src="/assets/img/image-novik-desktop.jpg" width="945" height="388" alt="Typical young hisster with glasses" class="about-portrait" id="about-me">
+               <picture>
+                  <source media="(max-width: 900px)" srcset="/assets/img/image-novik-900w.jpg">
+                  <source media="(min-width: 1445px)" srcset="/assets/img/image-novik-1445w.jpg">
+                  <img class="about-portrait" src="/assets/img/image-novik-1445w.jpg" width="945" height="388" alt="Typical young hisster with glasses"  id="about-me">
+                </picture>
+               <!-- adaptive img -->
             </div>
             <div class="wrapper-about-me">
                <h2 class="about-me-header">About me</h2>
@@ -123,15 +128,33 @@
             <h3 class="portfolio-header">Portfolio</h3>
             <ul class="portfolio-list">
                <li class="portfolio-items">
-                  <img class="portfolio-image image-1" src="/assets/img/image-fashion-desktop.jpg" width="937" height="510" alt="Online fashion store">
+                  <picture>
+                     <source media="(max-width: 500px)" srcset="/assets/img/image-fashion-500w.jpg">
+                     <source media="(min-width: 1445px)" srcset="/assets/img/image-fashion-1445w.jpg">
+                     <img class="portfolio-image image-1" src="/assets/img/image-fashion-1445w.jpg" alt="Online fashion store">
+                   </picture>
+                  <!-- adaptive img -->
+                  
                   <a class="portfolio-link link-1" href="https://www.levi.com/US/en_US/"  title="Go to page...">Online fashion store - Homepage</a>
                </li>
                <li class="portfolio-items">
-                  <img class="portfolio-image image-2" src="/assets/img/image-reebok-desktop.jpg" width="938" height="522" alt="Online fashion store">
+                  <picture>
+                     <source media="(max-width: 500px)" srcset="/assets/img/image-reebok-500w.jpg">
+                     <source media="(min-width: 1445px)" srcset="/assets/img/image-reebok-1445w.jpg">
+                     <img class="portfolio-image image-2" src="/assets/img/image-reebok-1445w.jpg" alt="Online fashion store">
+                   </picture>
+                  <!-- adaptive img -->
+                  
                   <a class="portfolio-link link-2" href="https://www.reebok.com/us/sale"  title="Go to page...">Reebok Store - Concept</a>
                </li>
                <li class="portfolio-items">
-                  <img class="portfolio-image image-3" src="/assets/img/image-braun-desktop.jpg" width="937" height="522" alt="Online fashion store">
+                  <picture>
+                     <source media="(max-width: 500px)" srcset="/assets/img/image-braun-500w.jpg">
+                     <source media="(min-width: 1445px)" srcset="/assets/img/image-braun-1445w.jpg">
+                     <img class="portfolio-image image-3" src="/assets/img/image-braun-1445w.jpg" alt="Online fashion store">
+                   </picture>
+                  <!-- adaptive img -->
+                  
                   <a class="portfolio-link link-3" href="https://braun-shop.by/"  title="Go to page...">Braun Landing Page - Concept</a>
                </li>
             </ul>
