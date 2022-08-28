@@ -63,6 +63,7 @@
  /* Simplifying work with images */
  img {
     max-width: 100%;
+    height: auto;
     display: block;
  }
  
@@ -563,3 +564,101 @@ ul .rating-4 {
 /* %MOBILE */
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 
+/* ! 1444 px */
+
+@media (max-width: 1444px) {
+   
+   .skills-list {
+      display: flex;
+      max-width: 444px;
+      align-self: center;
+   }
+
+   .skills-item {
+      margin-bottom: 35px;
+   }
+   
+   img.logo-2 ,
+   img.logo-3 ,
+   img.logo-4,
+   .text-2 ,
+   .text-3 ,
+   .text-4 ,
+   ul .rating-2 ,
+   ul .rating-3 ,
+   ul .rating-4 {
+      margin-left: 0;
+   }  
+
+}
+
+/* ! 1290px */
+
+@media (max-width: 1290px) {
+
+   .wrapper-portrait {
+      margin-bottom: 111px;
+   }
+
+}
+
+/* ! 903 px */
+
+@media (max-width: 903px) {
+
+   .wrapper-portrait {
+      margin-bottom: 89px;
+   }
+
+   .wrapper-about-me {
+      margin-bottom: 89px;
+   }
+
+   .skills {
+      margin-bottom: 75px;
+   }
+
+   .portfolio-header {
+      margin-top: 31px;
+   }
+
+   .portfolio-header {
+      margin-top: 48px;
+   }
+
+   .contacts-header {
+      margin-top: 48px;
+   }
+
+   .portfolio-items {
+      margin-bottom: 65px;
+   }
+}
+
+/* ! 900 px */
+
+@media (max-width: 900px) {
+   
+/* null */
+
+}
+
+/* ! 555 px */
+
+@media (max-width: 555px) {
+   
+      .contact-list {
+      max-width: 315px;
+   }
+
+   .main-header {
+      display: none;
+   }
+
+}
+
+/* ! 375 px */
+
+@media (max-width: 1115px) {
+   /* null */
+}
