@@ -635,19 +635,11 @@ ul .rating-4 {
    }
 }
 
-/* ! 900 px */
-
-@media (max-width: 900px) {
-   
-/* null */
-
-}
-
 /* ! 555 px */
 
 @media (max-width: 555px) {
    
-      .contact-list {
+   .contact-list {
       max-width: 315px;
    }
 
@@ -655,10 +647,8 @@ ul .rating-4 {
       display: none;
    }
 
-}
+   .skills-list{
+      justify-content: center;
+   } 
 
-/* ! 375 px */
-
-@media (max-width: 1115px) {
-   /* null */
 }
